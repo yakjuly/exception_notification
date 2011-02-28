@@ -1,0 +1,3 @@
+<%= YAML.dump({:session => @request.session, :cookies => @request.cookies, 
+      :request_method=>@request.request_method, :xhr=>@request.xhr?, 
+      :url=>@request.url, :params =>@request.params }) %>

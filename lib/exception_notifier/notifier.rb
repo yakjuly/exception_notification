@@ -1,5 +1,6 @@
 require 'action_mailer'
 require 'pp'
+require 'yaml'
 
 class ExceptionNotifier
   class Notifier < ActionMailer::Base
